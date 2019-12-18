@@ -1,0 +1,76 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/mytho3.JPG) ;
+  color: white ;
+  padding : 20px 30px;
+  height: 617px;
+  background-size: cover ;
+  background-position: center ;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+}
+@media (max-width: 830px) {
+  .banner {
+    padding: 0px
+  }
+}
+@media (max-width: 540px) {
+  .banner {
+    padding: 0px
+  }
+}
+.banner h1 {
+  font-size: 71px ;
+}
+@media (max-width: 720px) {
+  .banner h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 540px) {
+  .banner h1 {
+    font-size: 45px;
+  }
+}
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8 ;
+  margin-bottom: 40px;
+  margin-left: 62px;
+}
+@media (max-width: 720px) {
+  .banner h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 540px) {
+  .banner h2 {
+    font-size: 23px;
+  }
+}
+
+.banner a {
+  margin-left: 62px;
+  font-size: 25px;
+}
+
+#banner-bottom {
+  margin-bottom: 0px;
+  height: 275px;
+}
+#banner-bottom h2 {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 1;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  #banner-bottom h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 540px) {
+  #banner-bottom h2 {
+    font-size: 30px;
+  }
+}
